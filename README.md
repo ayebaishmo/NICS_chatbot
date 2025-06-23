@@ -70,6 +70,8 @@ npm run dev
 
 ```
 
+![image](images\chatbot.PNG)
+
 http://localhost:5173/
 
 ### Features
