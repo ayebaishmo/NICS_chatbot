@@ -8,6 +8,7 @@ google-generativeai = "*"
 python-dotenv = "*"
 django = "*"
 djangorestframework = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 ipykernel = "*"
