@@ -15,32 +15,58 @@ An AI-powered chatbot designed for **Ngamba Island Chimpanzee Sanctuary**, built
 ## Project Structure
 
 NICS_chatbot/
+
 │
+
 ├── chatbackend/ # Django Backend
+
 │ ├── chatbot/ # Django App
+
 │ │ ├── views.py
+
 │ │ ├── serializers.py
+
 │ │ ├── urls.py
+
 │ │ └── init.py
+
 │ ├── chatbackend/ # Django Project
+
 │ │ ├── settings.py
+
 │ │ ├── urls.py
+
 │ │ └── wsgi.py
+
 │ ├── db.sqlite3
+
 │ ├── .env # Environment variables
+
 │ └── manage.py
+
 │
+
 ├── chatbot-frontend/ # React Frontend
+
 │ ├── src/
+
 │ │ ├── App.tsx
+
 │ │ └── index.tsx
+
 │ ├── package.json
+
 │ └── vite.config.ts
+
 │
+
 └── README.md
 
+
 yaml
+
 Copy
+
 Edit
 
 
